@@ -1,0 +1,45 @@
+h1 {
+    text-align: center;
+}
+
+form {
+    display: table;
+}
+
+.center-container {
+    display: table;
+    margin: auto;
+}
+
+p {
+    display: table-row;
+}
+
+label {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+input {
+    display: table-cell;
+    margin: 1em;
+}
+
+textarea {
+    display: table-cell;
+    margin: 1em;
+}
+
+.flex-container {
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 4em;
+    flex-direction: column;
+}
+
+.flex-container > div {
+    margin-right: 8em;
+    margin-left: 8em;
+    background-color: beige;
+}
