@@ -92,7 +92,6 @@ button:active {
 
 .leftwrapper {
     width: 70%;
-    background-color: aquamarine;
     min-height: 100px;
     min-width: 100px;
     display: flex;
@@ -102,7 +101,6 @@ button:active {
 
 .rightwrapper {
     width: 30%;
-    background-color: violet;
     min-height: 100px;
     min-width: 100px;
     display: flex;
